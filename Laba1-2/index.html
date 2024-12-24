@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="calculator">
+        
+    
+        <div class="grid-container">
+                <div id="result" class="result" style="padding-right: 15px">0</div>
+
+                <button id="btn_op_clear" class="my-btn primary grid-item">C</button>
+                <button id="btn_op_backspace" class="my-btn primary grid-item">-></button>
+                <button id="btn_op_sign" class="my-btn primary grid-item">+/-</button>
+                <button id="btn_op_div" class="my-btn primary grid-item">/</button>
+                <button id="btn_op_percent" class="my-btn secondary grid-item">%</button>
+                <button id="btn_op_k" class="my-btn k secondary grid-item">000</button>
+
+                <button id="btn_digit_7" class="my-btn grid-item">7</button>
+                <button id="btn_digit_8" class="my-btn grid-item">8</button>
+                <button id="btn_digit_9" class="my-btn grid-item">9</button>
+                <button id="btn_op_mult" class="my-btn primary grid-item">x</button>
+                <button id="btn_op_sqrt" class="my-btn secondary grid-item">^1/2</button>
+
+                <button id="btn_digit_4" class="my-btn grid-item">4</button>
+                <button id="btn_digit_5" class="my-btn grid-item">5</button>
+                <button id="btn_digit_6" class="my-btn grid-item">6</button>
+                <button id="btn_op_minus" class="my-btn primary grid-item">-</button>
+                <button id="btn_op_pow" class="my-btn secondary grid-item">^2</button>
+                <button id="btn_op_resultcolorchange" class="my-btn resultcolorchange secondary grid-item">Смена цвета</button>     
+
+                <button id="btn_digit_1" class="my-btn grid-item">1</button>
+                <button id="btn_digit_2" class="my-btn grid-item">2</button>
+                <button id="btn_digit_3" class="my-btn grid-item">3</button>
+                <button id="btn_op_plus" class="my-btn primary grid-item">+</button>
+                <button id="btn_op_factorial" class="my-btn secondary grid-item">!</button>
+            
+                <button id="btn_digit_0" class="my-btn grid-item">0</button>
+                <button id="btn_digit_dot" class="my-btn grid-item">.</button>
+                <button id="btn_op_equal" class="my-btn secondary execute grid-item">=</button>
+        </div>
+    </div>
+    
+    <div class="flex-container">
+        <div class="flex-item">
+        <div>
+            <button id="theme" class="my-btn theme">Переключить тему</button>
+            <script src="script.js"></script>
+        </div>
+    
+        <div>ЛР выполнена Байназаровым Эриком Ильгизовичом</div>
+    
+        <div>
+            <form>
+                <label for="fruits">Выберите фрукт:</label>
+                <select id="fruits" name="fruits">
+                  <option value="orange">Яблоко</option>
+                  <option value="banana">Банан</option>
+                  <option value="apple">Апельсин</option>
+                </select>
+            </form>
+        </div>
+        </div>
+        <div class="flex-item">
+        
+    
+        <div>
+            Цель данной лабораторной работы -
+            <b>знакомство</b>
+            с инструментами построения пользовательских интерфейсов web-сайтов: 
+            <b>HTML, CSS</b>. В ходе выполнения работы, вам предстоит ознакомиться с
+            кодом реализации простого калькулятора, и затем выполнить задания по варианту.
+        </div>
+    
+        <div> <a href="https://github.com/IgorSergeevichISIT/Web/blob/main/turorials/lab1/readme.md"> Нажми меня! </a> </div>
+
+        <div>
+            <details>
+                <summary>Автор</summary>
+                <p>Байназаров Эрик Ильгизович, ИС-22</p>
+            </details>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
